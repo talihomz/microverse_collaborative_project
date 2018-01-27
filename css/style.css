@@ -11,22 +11,37 @@
 
 .links {
   float: right;
+  padding: 6px;
 }
 
-.nav_links {
+.nav-links {
   display: inline;
   margin: 0 8px;
+  padding-top: 10px;
 }
 
-.nav_links img {
+.nav-links img {
   width: 24px;
   height: 24px;
 }
 
-#personal_information {
+.nav-links a {
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+#personal-information {
   background: #B25505;
-  margin: auto;
   text-align: center;
+  padding: 20px;
+}
+
+#personal-information h1 {
+  text-transform: uppercase;
+  border-bottom: 1px solid #6a6c6c;
+  padding-bottom: 16px;
+  margin: auto;
+  width: 300px;
 }
 
 #about {
@@ -39,13 +54,18 @@
 
 header {
   background: #66E5FF;
+  padding: 16px 0;
+}
+
+header h2 {
+  margin: 0;
 }
 
 footer {
   background: #66E5FF;
 }
 
-.user_pic {
+.user-pic {
   border-radius: 50%;
   margin: 16px;
 }
@@ -55,13 +75,13 @@ footer {
 }
 
 .separator {
-  border: 1px solid black;
+  border: 1px solid #6a6c6c;
 }
 
-.social_media {
+.social-media {
   float: left;
 }
 
-.footer_text {
+.footer-text {
   float: right;
 }
