@@ -14,30 +14,45 @@
   padding: 6px;
 }
 
+.social-links {
+  margin-top: 32px;
+
+}
+
 .nav-links {
   display: inline;
   margin: 0 8px;
   padding-top: 10px;
 }
 
+.project-links {
+  padding-left: 0;
+}
+
 .nav-links img {
   width: 24px;
   height: 24px;
+  margin-right: 8px;
 }
 
 .nav-links a {
   font-size: 20px;
   margin-top: 10px;
+  color: whitesmoke;
+}
+
+.nav-links a:hover {
+  text-decoration: none;
 }
 
 #personal-information {
   background: #B25505;
   text-align: center;
   padding: 20px;
+  color: whitesmoke;
 }
 
 #personal-information h1 {
-  text-transform: uppercase;
   border-bottom: 1px solid #6a6c6c;
   padding-bottom: 16px;
   margin: auto;
@@ -48,8 +63,13 @@
   background: white;
 }
 
+#about h1 {
+  margin: 24px 0;
+}
+
 #projects {
   background: white;
+  margin: 24px 8px;
 }
 
 header {
@@ -63,11 +83,18 @@ header h2 {
 
 footer {
   background: #66E5FF;
+  padding: 24px 0;
+}
+
+h1 {
+  text-transform: uppercase;
 }
 
 .user-pic {
   border-radius: 50%;
   margin: 16px;
+  width: 128px;
+  height: 128px;
 }
 
 .clearfix {
@@ -79,9 +106,9 @@ footer {
 }
 
 .social-media {
-  float: left;
+  float: right;
 }
 
 .footer-text {
-  float: right;
+  float: left;
 }
