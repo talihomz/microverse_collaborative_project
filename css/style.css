@@ -11,15 +11,46 @@ body {
   float: right;
 }
 
-#about {
+.nav_links {
+  display: inline
+}
+
+#personal_information {
   background: #B25505;
+}
+
+#about {
+  background: white;
+}
+
+#projects {
+  background: white;
 }
 
 header {
   background: #66E5FF;
-  border: 1px solid black;
+}
+
+footer {
+  background: #66E5FF;
+}
+
+.user_pic {
+  border-radius: 50%
 }
 
 .clearfix {
   clear: both;
+}
+
+.separator {
+  border: 1px solid black;
+}
+
+.social_media {
+  float: left;
+}
+
+.footer_text {
+  float: right;
 }
