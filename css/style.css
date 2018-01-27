@@ -1,6 +1,8 @@
-body {
-  margin: 0;
-  padding: 0;
+.container-fluid {
+    padding-right:0;
+    padding-left:0;
+    margin-right:auto;
+    margin-left:auto
 }
 
 .logo {
@@ -12,11 +14,19 @@ body {
 }
 
 .nav_links {
-  display: inline
+  display: inline;
+  margin: 0 8px;
+}
+
+.nav_links img {
+  width: 24px;
+  height: 24px;
 }
 
 #personal_information {
   background: #B25505;
+  margin: auto;
+  text-align: center;
 }
 
 #about {
@@ -36,7 +46,8 @@ footer {
 }
 
 .user_pic {
-  border-radius: 50%
+  border-radius: 50%;
+  margin: 16px;
 }
 
 .clearfix {
