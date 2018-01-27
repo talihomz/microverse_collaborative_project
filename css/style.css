@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  float: left;
+}
+
+.links {
+  float: right;
+}
+
+#about {
+  background: #B25505;
+}
+
+header {
+  background: #66E5FF;
+  border: 1px solid black;
+}
+
+.clearfix {
+  clear: both;
+}
